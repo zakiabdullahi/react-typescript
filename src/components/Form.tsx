@@ -15,7 +15,7 @@ const Form = () => {
     console.log(title);
     console.log(content);
 
-    let todos = JSON.parse(localStorage.getItem("todos") || "[]");
+    const todos = JSON.parse(localStorage.getItem("todos") || "[]");
 
     const todo = { id, title, content };
 
